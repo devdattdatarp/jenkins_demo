@@ -9,14 +9,9 @@ agent any
         stage('Build Code') {
             steps {
                     sh "chmod u+x Prog1.py"
-                    sh "./Prog1.py"
+                    sh "./a.c"
                     }
                 }
-        stage('Test Code') {
-                steps {
-                        sh "chmod u+x Test.py"
-                        sh "./Test.py"
-                        }
-                }
+        
             }
 }
