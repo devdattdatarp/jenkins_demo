@@ -8,6 +8,7 @@ agent any
                 }
         stage('Build Code') {
             steps {
+                    echo "Hello"
                     sh "chmod u+x a.out"
                     sh "./a.out"
                     }
